@@ -1,0 +1,6 @@
+{
+  "name": "Pigma Sustainable Luxury",
+  "description": "Premium eco-friendly luxury real estate platform in Thailand featuring tropical villas, organic oceanfront estates, and custom sustainable features.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

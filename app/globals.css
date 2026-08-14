@@ -1,0 +1,51 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: var(--font-cormorant), serif;
+  --font-sans: var(--font-jakarta), sans-serif;
+  
+  --color-brand-olive-50: #f5f6f2;
+  --color-brand-olive-100: #e7e9dc;
+  --color-brand-olive-200: #cfd4bd;
+  --color-brand-olive-300: #b1b997;
+  --color-brand-olive-400: #8f9872;
+  --color-brand-olive-500: #717c53;
+  --color-brand-olive-600: #57613e;
+  --color-brand-olive-700: #464d32;
+  --color-brand-olive-800: #373c28;
+  --color-brand-olive-850: #2d3121;
+  --color-brand-olive-900: #23271a;
+  --color-brand-olive-950: #161810;
+  
+  --color-brand-cream-50: #f8f7f2;
+  --color-brand-cream-100: #f6f5f0;
+  --color-brand-cream-200: #ecead8;
+  --color-brand-cream-300: #dedabf;
+  --color-brand-cream-400: #cfccc0;
+
+  --color-brand-gold-400: #c5a059;
+}
+
+body {
+  background-color: var(--color-brand-cream-100);
+  color: var(--color-brand-olive-900);
+  font-family: var(--font-jakarta), sans-serif;
+}
+
+/* Wavy organic clip-path for hero, matching the organic wavy layout in the image */
+.organic-wave-clip {
+  clip-path: url(#organic-wave-svg-path);
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 6px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background-color: var(--color-brand-olive-300);
+  border-radius: 20px;
+}
