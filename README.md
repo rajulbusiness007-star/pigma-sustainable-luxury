@@ -2,17 +2,17 @@
 
 > **Ultra-Luxury Real Estate & Ecological Architecture Platform for Phuket & Koh Samui**
 
-[![Live Website](https://img.shields.io/badge/Website-pigma--sustainable--luxury.vercel.app-c5a059?style=for-the-badge&logo=vercel)](https://pigma-sustainable-luxury.vercel.app)
-[![Local Host](https://img.shields.io/badge/Local_Server-http%3A%2F%2Flocalhost%3A3001-23271a?style=for-the-badge&logo=nextdotjs)](http://localhost:3001)
-[![License](https://img.shields.io/badge/License-MIT-green.style=for-the-badge)](LICENSE)
+[![Live Demo](https://img.shields.io/badge/🌐_Live_Website-pigma--sustainable--luxury.vercel.app-c5a059?style=for-the-badge&logo=vercel)](https://pigma-sustainable-luxury.vercel.app)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Frajulbusiness007-star%2Fpigma-sustainable-luxury)
+[![GitHub Repo](https://img.shields.io/badge/GitHub-Repository-23271a?style=for-the-badge&logo=github)](https://github.com/rajulbusiness007-star/pigma-sustainable-luxury)
 
 ---
 
-## 🌐 Live Website & Links
+## 🌐 Live Production Website
 
-- 🔗 **GitHub Repository**: [https://github.com/rajulbusiness007-star/pigma-sustainable-luxury](https://github.com/rajulbusiness007-star/pigma-sustainable-luxury)
-- 🚀 **Live Production Link**: [https://pigma-sustainable-luxury.vercel.app](https://pigma-sustainable-luxury.vercel.app)
-- 💻 **Local Development Server**: `http://localhost:3001`
+* 🚀 **Direct Live Link**: **[https://pigma-sustainable-luxury.vercel.app](https://pigma-sustainable-luxury.vercel.app)**
+* 💻 **Local Development Server**: `http://localhost:3001`
+* 📦 **1-Click Deployment**: Click the "Deploy with Vercel" button above to spin up a new instance in 60 seconds.
 
 ---
 
@@ -26,40 +26,33 @@
 
 ---
 
-## 🚀 Getting Started Locally
+## 🚀 Quick Start Locally
 
-### Prerequisites
-- **Node.js**: `v18.0.0` or higher
-- **npm** or **pnpm**
+### 1. Clone the repository:
+```bash
+git clone https://github.com/rajulbusiness007-star/pigma-sustainable-luxury.git
+cd pigma-sustainable-luxury
+```
 
-### Installation
+### 2. Install dependencies:
+```bash
+npm install
+```
 
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/rajulbusiness007-star/pigma-sustainable-luxury.git
-   cd pigma-sustainable-luxury
-   ```
+### 3. Set Environment Variables:
+Create a `.env.local` file in the root directory:
+```env
+GEMINI_API_KEY="YOUR_GEMINI_API_KEY"
+APP_URL="http://localhost:3001"
+```
 
-2. **Install dependencies**:
-   ```bash
-   npm install
-   ```
-
-3. **Set Environment Variables**:
-   Create a `.env.local` file in the root directory:
-   ```env
-   GEMINI_API_KEY="YOUR_GEMINI_API_KEY"
-   APP_URL="http://localhost:3001"
-   ```
-
-4. **Launch Development Server**:
-   ```bash
-   npm run dev
-   ```
-
-   Open [http://localhost:3001](http://localhost:3001) in your browser.
+### 4. Launch Development Server:
+```bash
+npm run dev
+```
+Open [http://localhost:3001](http://localhost:3001) in your browser.
 
 ---
 
 ## 📄 License
-This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
+MIT License © 2026 Pigma Luxury Estates. All rights reserved.
